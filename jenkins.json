@@ -1,12 +1,12 @@
-{
-	"CONFIG": {
-		"components": [{
-			"repoName": "config"			
-		}]
-	},
-	"PROJECTS": {
-		"components": [{
-			"repoName": "myApp"
-		}]
-	}
+{  
+   "CONFIG":[  
+      {  
+         "repoName":"config"
+      }
+   ],
+   "PROJECTS":[  
+      {  
+         "repoName":"myApp"
+      }
+   ]
 }

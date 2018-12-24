@@ -1,6 +1,12 @@
-{
-	"test": [{
-		"appName": "myAPP",
-		"appID": "0000"		
-	}]
+{  
+   "test":[  
+      {  
+         "appName":"App1",
+         "appID":"0001"
+      },
+      {  
+         "appName":"App2",
+         "appID":"0002"
+      }
+   ]
 }

@@ -1,12 +1,11 @@
 {  
-   "test":[  
-      {  
-         "appName":"App1",
-         "appID":"0001"
-      },
-      {  
-         "appName":"App2",
-         "appID":"0002"
-      }
-   ]
+   "App1":{  
+      "appName":"App1",
+      "appID":"0001"
+   },
+   "App2":{  
+      "appName":"App2",
+      "appID":"0002"
+   },
+   "Flag":"true"
 }

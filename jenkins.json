@@ -7,5 +7,6 @@
       "appName":"App2",
       "appID":"0002"
    },
-   "Flag":"true"     
+   "Flag":"true",
+   "SharedLibRepo":"repoName"
 }

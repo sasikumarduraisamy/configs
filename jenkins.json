@@ -8,5 +8,5 @@
       "appID":"0002"
    },
    "Flag":"true",
-   "SharedLibRepo":"repoName"
+   "SharedLibRepo":"SharedLib"
 }

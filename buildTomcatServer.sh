@@ -1,6 +1,6 @@
 #!/bin/sh
 ServerParam=$1
-TAG="tomcat:latest"
+TAG="tomcat:tomcat"
 echo TAG: ${TAG}
 #docker login -u ${NexusUserName} -p ${NexusPassword} ${NexusUrl}
 docker build . -t ${TAG}

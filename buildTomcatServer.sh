@@ -14,7 +14,7 @@ then
 docker ps -a | grep "bin/catalina.sh"* | awk '{print $1}' |xargs docker rm -f
 fi
 
-docker run --name tomcat-server -it -d -p 8888:8080 tomcat:latest bin/catalina.sh $ServerParam
+docker run --name tomcat-server -it -d -p 8888:8080 ${TAG} bin/catalina.sh $ServerParam
 
 # Clean up local docker registry on Jenkins Slave node.
 

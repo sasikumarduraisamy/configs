@@ -2,6 +2,7 @@
 ServerParam=$1
 TAG="tomcat:tomcat"
 echo TAG: ${TAG}
+eval $(minikube docker-env)
 #docker login -u ${NexusUserName} -p ${NexusPassword} ${NexusUrl}
 docker build . -t ${TAG}
 #docker tag ${TAG} ${NexusUrl}/${TAG}

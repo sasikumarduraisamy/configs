@@ -9,5 +9,6 @@ spec:
       #command: ["sh", "-c", "/root/apache-tomcat-7.0.42-v2/bin/start.sh"]      
       ports:
        - containerPort: 8080
+         protocol: TCP
       #imagePullPolicy: Always
       #https://github.com/kubernetes/examples/tree/master/staging/javaweb-tomcat-sidecar

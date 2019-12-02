@@ -2,3 +2,6 @@
 https://minikube.sigs.k8s.io/docs/tasks/docker_daemon/
 
 https://github.com/LevelUpEducation/kubernetes-demo
+
+https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/#forward-a-local-port-to-a-port-on-the-pod
+https://stackoverflow.com/questions/50564446/minikube-how-to-access-pod-via-pod-ip-using-curl
